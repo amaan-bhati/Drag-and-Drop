@@ -4,12 +4,13 @@ body{
 }
 .file-input{
     display: grid;
-    grid-template-areas: "stack";
+    grid-template-areas: "stack";/*to make the items overlap each other*/
     width: 360px;
     height: 200px;
     background-color: darkslateblue;
     border-radius: 8px;
 }
+/*styling the items*/
 .file-input > * {
     grid-area: stack;
 }
@@ -21,7 +22,7 @@ body{
     border: dashed 2px #aaaaaa;
     border-radius: 4px;
 }
-.file-input.active > .drop-zone{
+.file-input.active > .drop-zone{/*active state*/
     margin: 14px;
     background-color: dadada;
 }

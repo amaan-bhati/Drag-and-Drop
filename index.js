@@ -1,3 +1,4 @@
+//toggling the active state on the label 
 const label = document.querySelector('label');
 
 function onEnter() {
